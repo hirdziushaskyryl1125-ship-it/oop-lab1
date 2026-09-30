@@ -1,0 +1,16 @@
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\bin\Debug\net10.0\oop-lab1-test1_var8.exe
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\bin\Debug\net10.0\oop-lab1-test1_var8.deps.json
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\bin\Debug\net10.0\oop-lab1-test1_var8.runtimeconfig.json
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\bin\Debug\net10.0\oop-lab1-test1_var8.dll
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\bin\Debug\net10.0\oop-lab1-test1_var8.pdb
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.AssemblyInfoInputs.cache
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.AssemblyInfo.cs
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.csproj.CoreCompileInputs.cache
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.sourcelink.json
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.dll
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\refint\oop-lab1-test1_var8.dll
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.pdb
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1-test1_var8.genruntimeconfig.cache
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\ref\oop-lab1-test1_var8.dll
+C:\Users\kiril\OneDrive\Desktop\oop\oop-lab1\oop-lab1-test1_var8\obj\Debug\net10.0\oop-lab1.FCD70214.Up2Date
