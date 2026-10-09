@@ -50,12 +50,11 @@ namespace ooo_lab1_test2_var5
             return $"a = {a}, b = {b}, h = {h}";
         }
 
-        const double q = 1e-10;
-
         public static bool operator ==(TRPiramid p1, TRPiramid p2)
         {
-            return ((Math.Abs(p1.a - p2.a) < q && Math.Abs(p1.b - p2.b) < q) || (Math.Abs(p1.a - p2.b) < q && Math.Abs(p1.b - p2.a) < q)) && Math.Abs(p1.h - p2.h) < q;
+            return ((TRTriangle)p1 == (TRTriangle)p2) && Math.Abs(p1.h - p2.h) < q;
         }
+
 
         public static bool operator !=(TRPiramid p1, TRPiramid p2)
         {

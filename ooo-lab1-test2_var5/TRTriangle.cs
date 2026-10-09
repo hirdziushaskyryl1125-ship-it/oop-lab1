@@ -7,6 +7,7 @@ namespace ooo_lab1_test2_var5
     class TRTriangle
     {
         protected  double a, b;
+        public const double q = 1e-10;
         public TRTriangle()
         {
             a = 1;
@@ -76,8 +77,6 @@ namespace ooo_lab1_test2_var5
             return a + b + c;
         }
 
-        const double q = 1e-10;
-
         public static bool operator ==(TRTriangle t1, TRTriangle t2)
         {
             return (Math.Abs(t1.a - t2.a) < q && Math.Abs(t1.b - t2.b) < q) || (Math.Abs(t1.a - t2.b) < q && Math.Abs(t1.b - t2.a) < q);
@@ -99,5 +98,3 @@ namespace ooo_lab1_test2_var5
 
     }
 }
-//ввід множників
-//
