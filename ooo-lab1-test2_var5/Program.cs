@@ -90,11 +90,17 @@
 
             Console.WriteLine("Множення трикутників");
 
-            TRTriangle t3 = t1 * 2;
-            TRTriangle t4 = 3 * t2;
+            Console.Write("На яке число помножити t1: ");
+            double m1 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("t1 * 2 = " + t3);
-            Console.WriteLine("3 * t2 = " + t4);
+            Console.Write("На яке число помножити t2: ");
+            double m2 = double.Parse(Console.ReadLine());
+
+            TRTriangle t3 = t1 * m1;
+            TRTriangle t4 = m2 * t2;
+
+            Console.WriteLine("t1 * " + m1 + " = " + t3);
+            Console.WriteLine(m2 + " * t2 = " + t4);
 
             Console.WriteLine("Піраміда 1");
 
@@ -200,13 +206,19 @@
             Console.WriteLine("p1 != p2: " + (p1 != p2));
 
 
-            Console.WriteLine("Множення пірамід");
-
-            TRPiramid p3 = p1 * 2;
-            TRPiramid p4 = 3 * p2;
-
-            Console.WriteLine("p1 * 2 = " + p3);
-            Console.WriteLine("3 * p2 = " + p4);
+            Console.WriteLine("Множення пірамід"); 
+            
+            Console.Write("На яке число помножити p1: "); 
+            double m3 = double.Parse(Console.ReadLine()); 
+            
+            Console.Write("На яке число помножити p2: "); 
+            double m4 = double.Parse(Console.ReadLine()); 
+            
+            TRPiramid p3 = p1 * m3; 
+            TRPiramid p4 = m4 * p2; 
+            
+            Console.WriteLine("p1 * " + m3 + " = " + p3); 
+            Console.WriteLine(m4 + " * p2 = " + p4);
         }
     }
 }

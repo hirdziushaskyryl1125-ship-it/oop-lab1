@@ -9,11 +9,15 @@ namespace ooo_lab1_test2_var5
         protected  double a, b;
         public TRTriangle()
         {
-            a = 0;
-            b = 0;
+            a = 1;
+            b = 1;
         }
         public TRTriangle(double a, double b)
         {
+            if(a <= 0 || b <= 0)
+            {
+                throw new ArgumentException("Сторони трикутника повинні бути додатніми числами.");
+            }
             this.a = a;
             this.b = b;
         }
@@ -36,6 +40,10 @@ namespace ooo_lab1_test2_var5
             }
             set 
             {
+                if(value <= 0)
+                {
+                    throw new ArgumentException("Сторона трикутника повинна бути додатним числом.");
+                }
                 a = value;
             }
         }
@@ -48,6 +56,10 @@ namespace ooo_lab1_test2_var5
             }
             set 
             {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("Сторона трикутника повинна бути додатним числом.");
+                }
                 b = value;
             }
         }
@@ -64,9 +76,11 @@ namespace ooo_lab1_test2_var5
             return a + b + c;
         }
 
+        const double q = 1e-10;
+
         public static bool operator ==(TRTriangle t1, TRTriangle t2)
         {
-            return t1.a == t2.a && t1.b == t2.b;
+            return (Math.Abs(t1.a - t2.a) < q && Math.Abs(t1.b - t2.b) < q) || (Math.Abs(t1.a - t2.b) < q && Math.Abs(t1.b - t2.a) < q);
         }
         public static bool operator !=(TRTriangle t1, TRTriangle t2)
         {
@@ -85,3 +99,5 @@ namespace ooo_lab1_test2_var5
 
     }
 }
+//ввід множників
+//

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kiril\\OneDrive\\Desktop\\oop\\oop-lab1\\oop-lab1-test1_var8\\oop-lab1-test1_var8.csproj",
+      "projectUniqueName": "D:\\oop\\oop-lab1\\oop-lab1-test1_var8\\oop-lab1-test1_var8.csproj",
       "projectName": "oop-lab1-test1_var8",
-      "projectPath": "C:\\Users\\kiril\\OneDrive\\Desktop\\oop\\oop-lab1\\oop-lab1-test1_var8\\oop-lab1-test1_var8.csproj",
+      "projectPath": "D:\\oop\\oop-lab1\\oop-lab1-test1_var8\\oop-lab1-test1_var8.csproj",
       "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kiril\\OneDrive\\Desktop\\oop\\oop-lab1\\oop-lab1-test1_var8\\obj\\",
+      "outputPath": "D:\\oop\\oop-lab1\\oop-lab1-test1_var8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

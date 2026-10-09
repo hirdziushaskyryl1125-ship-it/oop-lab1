@@ -16,16 +16,24 @@ namespace ooo_lab1_test2_var5
             }
             set 
             {
+                if(value <= 0)
+                {
+                    throw new ArgumentException("Висота піраміди повинна бути додатним числом.");
+                }
                 h = value;
             }
         }
         public TRPiramid(double a, double b, double h) : base(a, b)
         {
+            if (h <= 0)
+            {
+                throw new ArgumentException("Висота піраміди повинна бути додатним числом.");
+            }
             this.h = h;
         }
         public TRPiramid() : base()
         {
-            h = 0;
+            h = 1;
         }
         public TRPiramid(TRPiramid other) : base(other)
         {
@@ -42,11 +50,11 @@ namespace ooo_lab1_test2_var5
             return $"a = {a}, b = {b}, h = {h}";
         }
 
+        const double q = 1e-10;
+
         public static bool operator ==(TRPiramid p1, TRPiramid p2)
         {
-            return p1.a == p2.a &&
-                   p1.b == p2.b &&
-                   p1.h == p2.h;
+            return ((Math.Abs(p1.a - p2.a) < q && Math.Abs(p1.b - p2.b) < q) || (Math.Abs(p1.a - p2.b) < q && Math.Abs(p1.b - p2.a) < q)) && Math.Abs(p1.h - p2.h) < q;
         }
 
         public static bool operator !=(TRPiramid p1, TRPiramid p2)
@@ -56,18 +64,12 @@ namespace ooo_lab1_test2_var5
 
         public static TRPiramid operator *(TRPiramid pyramid, double number)
         {
-            return new TRPiramid(
-                pyramid.a * number,
-                pyramid.b * number,
-                pyramid.h * number
-            );
+            return new TRPiramid(pyramid.a * number,pyramid.b * number,pyramid.h * number);
         }
 
         public static TRPiramid operator *(double number, TRPiramid pyramid)
         {
-            return new TRPiramid(
-                pyramid.a * number,
-                pyramid.b * number,
+            return new TRPiramid(pyramid.a * number,pyramid.b * number,
                 pyramid.h * number
             );
         }
