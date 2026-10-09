@@ -14,6 +14,7 @@
             switch (choice)
             {
                 case 1:
+
                     Console.Write("Введіть a: ");
                     double a = double.Parse(Console.ReadLine());
 
@@ -25,7 +26,79 @@
 
                     QuadraticEquation equation = new QuadraticEquation(a, b, c);
 
-                    Console.WriteLine($"Рівняння: {a}x^2 + {b}x + {c} = 0");
+                    string text = "";
+
+                    if (a != 0)
+                    {
+                        if (a == 1)
+                        {
+                            text += "x^2";
+                        }
+                        else if (a == -1)
+                        {
+                            text += "-x^2";
+                        }
+                        else
+                        {
+                            text += $"{a}x^2";
+                        }
+                    }
+
+                    if (b != 0)
+                    {
+                        if (text != "")
+                        {
+                            if (b > 0)
+                            {
+                                text += " + ";
+                            }
+                            else
+                            {
+                                text += " - ";
+                            }
+                        }
+                        else if (b < 0)
+                        {
+                            text += "-";
+                        }
+
+                        if (Math.Abs(b) == 1)
+                        {
+                            text += "x";
+                        }
+                        else
+                        {
+                            text += $"{Math.Abs(b)}x";
+                        }
+                    }
+
+                    if (c != 0)
+                    {
+                        if (text != "")
+                        {
+                            if (c > 0)
+                            {
+                                text += " + ";
+                            }
+                            else
+                            {
+                                text += " - ";
+                            }
+                        }
+                        else if (c < 0)
+                        {
+                            text += "-";
+                        }
+
+                        text += Math.Abs(c);
+                    }
+
+                    if (text == "")
+                    { 
+                        text = "0"; 
+                    }
+
+                    Console.WriteLine($"Рівняння: {text} = 0");
 
                     if (equation.HasSolutions())
                     {

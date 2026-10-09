@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|d:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|d:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\trpiramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|solutionrelative:trpiramid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|d:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\trtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|solutionrelative:trtriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|d:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92C2AE28-BA16-7470-9033-EA2CF0CEDA46}|ooo-lab1-test2_var5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TRPiramid.cs",
               "DocumentMoniker": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\TRPiramid.cs",
               "RelativeDocumentMoniker": "TRPiramid.cs",
               "ToolTip": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\TRPiramid.cs",
               "RelativeToolTip": "TRPiramid.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T07:21:37.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TRTriangle.cs",
               "DocumentMoniker": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\TRTriangle.cs",
               "RelativeDocumentMoniker": "TRTriangle.cs",
               "ToolTip": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\TRTriangle.cs",
               "RelativeToolTip": "TRTriangle.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFIAAACgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T06:38:23.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\oop\\oop-lab1\\ooo-lab1-test2_var5\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwNsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAcwNsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T05:54:59.72Z",
               "EditorCaption": ""

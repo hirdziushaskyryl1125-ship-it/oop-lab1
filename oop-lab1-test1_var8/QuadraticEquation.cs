@@ -69,9 +69,82 @@ namespace oop_lab1_test1_var8
             c = double.Parse(Console.ReadLine());
         }
 
+
         public void Output()
         {
-            Console.WriteLine($"{a}x^2 + {b}x + {c} = 0");
+            string equation = "";
+
+            if (a != 0)
+            {
+                if (a == 1)
+                {
+                    equation += "x^2";
+                }
+                else if (a == -1)
+                {
+                    equation += "-x^2";
+                }
+                else
+                {
+                    equation += $"{a}x^2";
+                }
+            }
+
+            if (b != 0)
+            {
+                if (equation != "")
+                {
+                    if (b > 0)
+                    {
+                        equation += " + ";
+                    }
+                    else
+                    {
+                        equation += " - ";
+                    }
+                }
+                else if (b < 0)
+                {
+                    equation += "-";
+                }
+
+                if (Math.Abs(b) == 1)
+                {
+                    equation += "x";
+                }
+                else
+                {
+                    equation += $"{Math.Abs(b)}x";
+                }
+            }
+
+            if (c != 0)
+            {
+                if (equation != "")
+                {
+                    if (c > 0)
+                    {
+                        equation += " + ";
+                    }
+                    else 
+                    {
+                        equation += " - ";
+                    }
+                }
+                else if (c < 0)
+                {
+                    equation += "-";
+                }
+
+                equation += Math.Abs(c);
+            }
+
+            if (equation == "") 
+            {
+                equation = "0";
+            }
+
+            Console.WriteLine($"{equation} = 0");
 
             if (!HasSolutions())
             {
@@ -83,5 +156,6 @@ namespace oop_lab1_test1_var8
                 Console.WriteLine($"x2 = {this[1]}");
             }
         }
+
     }
 }
